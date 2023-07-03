@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Contact
+        </title>
+
+        <link rel="stylesheet" href="css/contact.css" />
+
+        <link rel="icon" type="image/x-icon" href="images/rengokumati.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body style="background-color: white; font-family: Montserrat;">
+        
+        <nav >
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="images/beingfunnyInA.jpg">
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href ="#">MyProject </a></li>
+                </ul>
+            </div>
+
+            <div class ="nav-right">
+                <a>Contact Me</a>
+            </div>
+        </nav>
+
+        <div class ="contact-container">
+            <form class ="form-container">
+                <h2 style="margin: 25px; text-align: center; font-size: 32px">GET IN TOUCH</h2>
+                <div class="detail-form">
+                    <label>
+                        Name
+                    </label>
+                    <input
+                    id="input-name"
+                    type="text"
+                    placeholder="Your Name"/>
+                </div>
+
+                <div class="detail-form">
+                    <label>
+                        Email
+                    </label>
+                    <input
+                    id="input-email"
+                    type="email"
+                    placeholder="contoh@gmail.com"/>
+                </div>
+
+                <div class="detail-form">
+                    <label>
+                        Phone Number
+                    </label>
+                    <input
+                    id="input-phone"
+                    type="text"
+                    placeholder="08XXXXXXXX"
+                    onkeypress="return isNumberKey(event)"/>
+                
+                </div>
+
+                <div class="detail-form">
+                    <label>
+                        Subject
+                    </label>
+                
+                    <select id="input-subject">
+                        <option value="">Select</option>
+                        <option value="Frontend Developer"> Frontend Developer</option>
+                        <option value="Backend Developer"> Backend Developer</option>
+                        <option value="Fullstack Developer"> Fullstack Developer</option>
+                    </select>
+                </div>
+
+                <div class="detail-form">
+                    <label>
+                        Your Message
+                    </label>
+                    <textarea
+                    id="input-message"
+                    placeholder="Pesan Anda"></textarea>
+                </div>
+                <div class="btn">
+                    <button type="button" onclick="submitData()" >Submit</button>
+                </div>    
+            </form>
+        </div>
+    </body>
+    <script src="js/contact.js"></script>
+</html>

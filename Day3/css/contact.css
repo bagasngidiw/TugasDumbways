@@ -114,6 +114,7 @@ textarea {
 
 .detail-form{
     margin-bottom: 12px;
+    width: 600px;
     display: flex;
     flex-direction: column;
 
@@ -134,3 +135,9 @@ textarea {
     cursor: pointer;
 }
 
+
+input.error,
+select.error,
+textarea.error {
+    border: 1px solid red;
+}
