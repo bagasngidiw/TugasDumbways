@@ -1,0 +1,416 @@
+
+*{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0 !important;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 10vh;
+    align-items: center;
+    background-color: #e3e7eb;
+    font-size: 16px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 22px;
+}
+
+nav ul li {
+    list-style-type: none;
+    
+}
+
+nav ul img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    object-fit: contain;
+}
+
+nav ul li a{
+    transition: 0.4s ease-out;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    font-weight: bold;
+    scale: 1.03;
+}
+nav ul li a.active{
+    color: orangered;
+    font-weight: bold;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1px;
+    width: 100%;
+}
+
+.nav-right a{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    align-items: flex-end;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+
+.nav-right a:hover{
+    background-color: orangered;
+    scale: 1.03;
+}
+
+
+/* project form  */
+
+input, textarea{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 3px #dbdbdb;
+}
+
+.form-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div label{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.form-container{
+    padding: 40px 32px;
+    background-color: #e3e7eb;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 0px 15px black;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+} 
+
+
+.form-detail{
+    margin-bottom: 12px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-date{
+    flex-direction: row !important;
+}
+
+.form-detail-start-date{
+    width: 150px;
+    flex: 50%;
+    margin-right: 30px;
+
+}
+
+.form-detail-end-date{
+    flex: 50%;
+    width: 150px;
+}
+
+.form-detail-description{
+   resize: vertical;
+}
+
+.form-detail-technologies{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    flex-direction: row !important;
+
+}
+
+.input-checkbox{
+    display: flex;
+    justify-content: flex-start;
+    flex: 50%;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: row !important;
+
+}
+
+input[type="checkbox"]{
+    border-radius: 50px;
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+.input-blog-image-group{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 3px #dbdbdb;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #e3e7eb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black  ;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: #b1b3b5;
+  }
+
+.input-blog-image-group p{
+    background-color: #e3e7eb ;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex: 50%;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+}
+
+.input-blog-image-group img{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding-left: 300px;
+    object-fit: cover;
+}
+
+.input-blog-image-group label{
+    display: flex;
+}
+
+.button-group{
+    flex-direction: row !important;
+    gap: 20px;
+    margin-left: 72%;
+}
+
+.button-group-submit {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 5px;
+}
+
+
+.button-group-submit button{
+    display: flex;
+    flex: 60%;
+    background-color: black;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 7px;
+    align-items: flex-end;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.button-group-submit button:hover{
+    transition: 0.4s ease-out;
+   background-color: orangered;
+}
+
+.button-group-clear{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.button-group-clear button{
+    display: flex;
+    flex: 50%;
+    background-color: black;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    align-items: flex-end;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+.button-group-clear button:hover{
+    transition: 0.4s ease-out;
+    background-color: orangered;
+ }
+
+
+hr{
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* list and card project */
+
+.list-project-wrapper{
+    padding: 70px;
+    background-color: #e3e7eb;
+}
+
+.list-project-wrapper h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.list-project-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 60px;
+}
+
+.list-project-card{
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+}
+
+.card-title a{
+    color: black;
+}
+
+.list-project-card:hover{
+    scale: 1.03;
+}
+
+.card-image img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: -20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-duration p{
+    font-size: 12px;
+    color: #868a8f;
+    margin-top: -18px;
+}
+
+.card-description{
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+}
+
+.card-icons i{
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.card-button{
+    justify-content: space-between;
+    display: flex;
+}
+
+.card-button button{
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 50px;
+    background-color: black;
+}
+
+.card-button button:hover{
+    background-color: orangered;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(179, 170, 170);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 10px;
+    font-size: 10px;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: none !important;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltiptext.tooltip-bottom{
+    top: 135%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  

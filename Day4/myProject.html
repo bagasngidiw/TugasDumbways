@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Project
+        </title>
+
+        <link rel="stylesheet" href="css/myProject.css"/>
+        <link rel="icon" type="image/x-icon" href="images/rengokumati.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <!-- NAV -->
+
+    <body style="background-color: white; font-family: Montserrat;">
+        <nav >
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="images/beingfunnyInA.jpg">
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href ="#" class="active">Project </a></li>
+                </ul>
+            </div>
+
+            <div class ="nav-right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </nav>
+
+        <!-- ADD PROJECT -->
+
+        <div class="project-container">
+            <form class="form-container" onsubmit="addProjectData(event)">
+                <h2 style="margin: 25px; text-align: center; font-size: 28px">ADD MY PROJECT</h2>
+                <div class="form-detail">
+                    <label>
+                        Project Name
+                    </label>
+                    <input id="input-project-name"/>
+                </div>
+                <div class="form-detail form-date">
+                    <div class="form-detail-start-date">
+                        <label>
+                            Start Date
+                        </label>
+                        <input id="input-start-date" type="date"/>
+                    </div>
+
+                    <div class="form-detail-end-date">
+                        <label>
+                            End Date
+                        </label>
+                        <input id="input-end-date" type="date"/>
+                    </div>
+                </div>
+                <div class="form-detail">
+                    <label>
+                        Description
+                    </label>
+                    <textarea class="form-detail-description" id="input-description" rows="5" ></textarea>
+                </div>
+                
+                <div class="form-detail">
+                    <label>
+                        Technologies
+                    </label>
+                    <div class="form-detail-technologies">
+                        <div class="input-checkbox" >
+                            <input type="checkbox" id="nodejs" class="input-technologies"/>
+                            <label for="nodejs">Node JS</label>
+
+                        </div>
+                        <div class="input-checkbox" >
+                            <input type="checkbox" id="reactjs" class="input-technologies"/>
+                            <label for="reactjs">React JS</label>
+
+                        </div>
+                        <div class="input-checkbox" >
+                            <input type="checkbox" id="python" class="input-technologies"/>
+                            <label for="python">Python</label>
+
+                        </div>
+                        <div class="input-checkbox" >
+                            <input type="checkbox" id="javaScript" class="input-technologies"/>
+                            <label for="javaScript">JavaScript</label>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="form-detail">
+                    <label>
+                        Upload Image
+                    </label>
+                    <input placeholder="Attach File" type="file" id="input-image" />
+                    
+                </div>
+
+                <div class="button-group">
+                    <div class="button-group-clear">
+                        <button type="reset">Clear</button>
+                    </div>
+                    <div class="button-group-submit">
+                        <button onclick="whenFormEmpty()" type="submit">Submit</button>
+                    </div>
+                </div>
+                
+
+            </form>
+        </div>
+
+        <hr/>
+
+        <!-- LIST PROJECT -->
+
+        <div class="list-project-wrapper">
+            <h1>MY PROJECT</h1>
+            <div class="list-project-container" id="list-project-container">
+
+                <!-- CARD NYA -->
+
+                <div class="list-project-card">
+                    <div class="card-image">
+                        <img src="images/The1975.jpg"/>
+                    </div>
+                    <div class="card-title">
+                        <h4><a href ="projectDetail.html" target="_blank">Dumbways Mobile App - 2023</a></h4>
+                    </div>
+                    <div class="card-duration">
+                        <p>Duration : 3 Month</p>
+                    </div>
+                    <div class="card-description">
+                        <p>
+                            App that used for dumbways student, it was deployed and can
+                            downloaded on playstore. Happy download.
+                        </p>
+                    </div>
+                    <div class="card-icons">
+                        <i class="fa-brands fa-node-js fa-xl tooltip"><span class="tooltiptext tooltip-bottom">Node Js</span></i>
+                        <i class="fa-brands fa-python fa-xl tooltip"><span class="tooltiptext tooltip-bottom">Pyhton</span></i>
+                        <i class="fa-brands fa-square-js fa-xl tooltip"><span class="tooltiptext tooltip-bottom">JavaScript</span></i>
+                        <i class="fa-brands fa-react fa-xl tooltip"><span class="tooltiptext tooltip-bottom">React Js</span></i>
+                    </div>
+                    <div class="card-button">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </div>
+                <!-- END OF CARD -->
+
+                <!-- CARD NYA -->
+
+                <div class="list-project-card">
+                    <div class="card-image">
+                        <img src="images/beingfunnyInA.jpg"/>
+                    </div>
+                    <div class="card-title">
+                        <h4><a href ="projectDetail.html" target="_blank" >Dumbways Mobile App - 2023</a></h4>
+                    </div>
+                    <div class="card-duration">
+                        <p>Duration : 3 Month</p>
+                    </div>
+                    <div class="card-description">
+                        <p>
+                            App that used for dumbways student, it was deployed and can
+                            downloaded on playstore. Happy download.
+                        </p>
+                    </div>
+                    <div class="card-icons">
+                        <i class="fa-brands fa-node-js fa-xl tooltip"><span class="tooltiptext tooltip-bottom">Node Js</span></i>
+                        <i class="fa-brands fa-python fa-xl tooltip"><span class="tooltiptext tooltip-bottom">Pyhton</span></i>
+                        <i class="fa-brands fa-square-js fa-xl tooltip"><span class="tooltiptext tooltip-bottom">JavaScript</span></i>
+                        <i class="fa-brands fa-react fa-xl tooltip"><span class="tooltiptext tooltip-bottom">React Js</span></i>
+                    </div>
+                    <div class="card-button">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                </div>
+                <!-- END OF CARD -->
+            </div>
+        </div>
+        <script src="js/myProject.js"></script>
+    </body>
+</html>
