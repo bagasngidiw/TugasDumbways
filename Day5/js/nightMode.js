@@ -1,5 +1,5 @@
 function toggleNightMode() {
-    var element = document.body;
+    let element = document.body;
     element.classList.toggle("night-mode");
 }
-var switchButton = (toggleNightMode);
+let switchButton = (toggleNightMode);
