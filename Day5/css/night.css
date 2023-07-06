@@ -1,0 +1,175 @@
+body.night-mode{ 
+    background-color: #141414 !important;
+
+}
+
+
+/* nav night mode */
+.night-mode nav{
+    background-color: #2e2d2d;
+}
+
+.night-mode nav ul li a{
+    color: white;
+}
+
+.night-mode .nav-right a{
+    background-color: white;
+    color: #141414;
+}
+
+/* contact form night mode */
+.night-mode .form-container{
+    background-color: #141414;
+}
+
+.night-mode .form-container div label{
+    color: white;
+}
+
+.night-mode .form-container{
+    background-color: #6f7173;
+    box-shadow: 0 5px 15px white;
+}
+
+.night-mode .form-container h2{
+    color: white;
+}
+
+.night-mode .btn button {
+    background-color: white;
+    color: black;
+    
+}
+
+/* MY FORM */
+.night-mode .container{
+    background-color: #6f7173; 
+    box-shadow: 0px 0px 15px white;
+}
+
+.night-mode .left{
+    color: white;
+}
+
+
+.night-mode .right-image p{
+    color: white;
+}
+
+.night-mode .cv-and-contact .btn{
+    background-color:  white; 
+    color: #141414; 
+}   
+.night-mode .cv-and-contact .download{
+    color: white;
+}
+
+.night-mode .social-media a{
+    text-decoration: none;
+    color: white;
+}
+
+.night-mode .right-image{
+    box-shadow: 0 5px 15px white;
+}
+
+/* PROJECT FORM  */
+.night-mode .form-container{
+    background-color: #6f7173;
+    box-shadow: 0px 0px 15px white;
+}
+
+.night-mode .form-container div label{
+    color: white;
+}
+
+.night-mode input[type=file]::file-selector-button {
+    background: #6f7173;
+    color: white  ;
+}
+
+/* YANG ADA INPUT-BLOG-IMAGE-GROUP APUS AJA NANTI */
+
+.night-mode .button-group-submit button{
+    background-color: white;
+    color: black;
+}
+
+.night-mode .button-group-clear button{
+    background-color: white;
+    color: black;
+}
+
+.night-mode hr{
+    border: 1px solid white;
+  }
+
+/* LIST PROJECT */
+
+.night-mode .list-project-wrapper{
+    background-color: #6f7173;
+}
+
+.night-mode .list-project-wrapper h1{
+    color: white;
+}
+
+.night-mode .list-project-card{
+    background-color: #141414;
+    border: 3px solid white;
+}
+
+.night-mode .card-title a{
+    color: white;
+    transition: 0.4s ease-out;
+}
+
+.night-mode .card-description{
+    color: white;
+}
+
+.night-mode .card-icons i{
+    color: white;
+}
+
+.night-mode .card-button button{
+    color: #141414;
+    background-color: white;
+}
+
+/* LIST PROJECT */
+
+.night-mode .project-detail-wrapper{
+    background-color: #141414;
+}
+
+.night-mode .project-detail-card h1{
+    color: white;
+}
+
+.night-mode .project-detail-card{
+    background-color:  #6f7173;
+    box-shadow: 0px 0px 15px white;
+}
+
+.night-mode .project-detail-right ul li i{
+    color: white;
+}
+
+.night-mode .project-detail-right ul li h6{
+    color: white;
+}
+
+.night-mode .project-detail-right ul li h7{
+    color: #cbcbcb;
+}
+
+.night-mode .project-detail-paragraphs h2 {
+    transition: 0.4s ease-out;
+    color: white;
+}
+
+.night-mode .project-detail-paragraphs p {
+    color: white;
+}
