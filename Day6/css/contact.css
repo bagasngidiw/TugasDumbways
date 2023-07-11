@@ -1,0 +1,86 @@
+body{
+    margin: 0 !important;
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+/* Contact Form */
+input,
+select,
+textarea {
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 3px #dbdbdb;
+}
+
+.form-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div label{
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+.contact-container{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-out;
+    background-color: #b9bdbd;
+} 
+
+
+.detail-form{
+    margin-bottom: 30px;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#input-message{
+    resize: vertical;
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 85%;
+}
+
+.btn button {
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 3px #dbdbdb;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    transition: 0.4s ease-out;
+    background-color: orangered;
+}
+
+
+input.error,
+select.error,
+textarea.error {
+    border: 1px solid red;
+}
