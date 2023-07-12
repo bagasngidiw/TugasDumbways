@@ -63,7 +63,7 @@ const testimonial1 = new AuthorTestimonials("Naruto Uzumaki", "Dattebayo", "http
 
 const testimonial2 = new AuthorTestimonials("Tanjiro", "Hinokami No Kata", "https://www.dailysia.com/wp-content/uploads/2022/02/Kamado-Tanjiro_1.jpg")
 
-const testimonial3 = new CompanyTestimonials("Eren Jeager", "TATAKAE", "https://static.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_%28Anime%29_character_image.png/revision/latest?cb=20220123225500")
+const testimonial3 = new CompanyTestimonials("Eren Jeager", "TATAKAE", "https://www.dailysia.com/wp-content/uploads/2022/01/Eren-Yeager_1.jpg")
 
 const testimonial4 = new Testimonials("Kocak", "")
 
