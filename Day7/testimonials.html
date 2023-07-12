@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Testimonials
+        </title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <link rel="stylesheet" href="css/night.css" />
+        <link rel="stylesheet" href="css/nav.css" />
+        <link rel="stylesheet" href="css/hamburgerMenu.css" />
+        <link rel="stylesheet" href="css/testimonials.css" />
+        <link rel="stylesheet" href="css/responsiveLayout.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="images/rengokumati.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body style="background-color: #b9bdbd; font-family: Montserrat;">
+        <nav >
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="images/beingfunnyInA.jpg">
+                    </li>
+                    <li class="collapse-item"><a href="index.html">Home</a></li>
+                    <li class="collapse-item"><a href ="myProject.html">Project</a></li>
+                    <li class="collapse-item"><a href ="testimonials.html" class="active">Testimonial</a></li>
+                </ul>
+            </div>
+
+            <div class ="nav-right">
+                <a class="nav-right-night-mode" type="button" onclick="toggleNightMode()">Night Mode</a>
+                <a class="collapse-item" href="contact.html">Contact Me</a>
+
+            </div>
+            <div class="nav-right" id="hamburger-btn">
+                <a onclick="openHamburger()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="hamburger-menu-container" id="hamburger-menu-container">
+            <a href="index.html">Home</a>
+            <a href="myProject.html">Project</a>
+            <a href="testimonials.html" class="nav-active">Testimonial</a>
+            <a class="hamburger-menu-contact-me" href="contact.html">Contact Me</a>
+        </div>
+
+        <div class="wrapper-testimonials">
+            <h1>Testimonial </h1>
+            <div class="container-testimonials" id="container-testimonials">
+                <!-- <div class="card-testimonials">
+                        <img src="images/rengokumati.jpg"/>
+                        <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae temporibus laborum alias mollitia omnis, explicabo officiis culpa excepturi ipsam natus! Iusto pariatur nihil qui quas laudantium dicta blanditiis accusantium placeat."</p>
+                        <p class="author">- Naruto Uzumaki</p>
+                </div> -->
+            </div>
+        </div>
+    </body>
+    <script src="js/hamburger.js"></script>
+    <script src="js/nightMode.js"></script>
+    <script src="js/testimonials.js"></script>
+</html>
