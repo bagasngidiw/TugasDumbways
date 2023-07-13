@@ -1,3 +1,5 @@
+// PAKE OOP JAVASCRIPT
+
 class Testimonials{
     #quote = ""
     #image = ""
@@ -65,7 +67,7 @@ const testimonial2 = new AuthorTestimonials("Tanjiro", "Hinokami No Kata", "http
 
 const testimonial3 = new CompanyTestimonials("Eren Jeager", "TATAKAE", "https://www.dailysia.com/wp-content/uploads/2022/01/Eren-Yeager_1.jpg")
 
-const testimonial4 = new Testimonials("Kocak", "")
+
 
 
 let dataTestimonial = [testimonial1, testimonial2, testimonial3];
