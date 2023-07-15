@@ -1,0 +1,123 @@
+/* RESPONSIVE HAMBURGER NAVBAR */
+
+@media only screen and (max-width: 666px){
+    .collapse-item{
+        display: none !important;
+    }
+
+    #hamburger-btn{
+        display: block;
+    }
+}
+
+/* RESPONSIVE HAMBURGER MENU AGAR PAS DI GESER DIA HILANG */
+@media only screen and (min-width: 640px){
+    #hamburger-menu-container{
+        /* display: none; */
+        transform: translateY(-150%) !important;
+    }
+
+}
+
+/* PAGE HOME */
+@media only screen and (max-width : 900px){
+    .container{
+        margin: 50px;
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .container{
+        padding: 20px;
+        margin: 25px;
+    }
+    
+}
+
+@media only screen and (max-width : 740px) {
+    .container{
+        flex-direction: column;
+    }
+    
+    .social-media{
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .right{
+        margin-bottom: 35px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .right-image{
+        width: auto;
+        width: 70vw;
+
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width : 495px) {
+    .left h1{
+        font-size: 20px;
+    }
+
+    .left p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:405px) {
+    #download-cv{
+        display: none;
+    }
+}
+/* MY CONTACT GAADA */
+
+ /* PROJECT FORM */
+ @media only screen and (max-width : 1090px) {
+    .list-project-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and (max-width : 650px) {
+    .list-project-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media only screen and (max-width : 475px) {
+    .form-container{
+        padding: 20px;
+        width: 400px;
+    }
+
+    .button-group{
+        margin-left: 60%;
+    }
+}
+
+/* TESTIMONIALS */
+
+@media only screen and (max-width : 1100px) {
+    .container-testimonials{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width : 710px) {
+    .container-testimonials{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+    
