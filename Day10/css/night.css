@@ -1,20 +1,65 @@
 body.night-mode{ 
+
+    transition: 0.4s ease-out;
+
     background-color: #141414 !important;
 
 }
 
 
 /* nav night mode */
-.night-mode nav{
+.night-mode #nav{
+    transition: 0.4s ease-out;
+
     background-color: #2e2d2d;
 }
 
 .night-mode nav ul li a{
+    transition: 0.4s ease-out;
     color: white;
 }
 
+.night-mode  .collapse{
+    transition: 0.4s ease-out;
 
-.night-mode .nav-right a{
+    background-color: #2e2d2d;
+}
+
+.night-mode #self-card{
+    transition: 0.4s ease-out;
+    background-color: #2e2d2d;
+    box-shadow: 0px 0px 15px white;
+}
+.night-mode .container-fluid{
+    transition: 0.4s ease-out;
+    background-color: #2e2d2d;
+
+}
+
+.card-body{
+    color: white;
+}
+
+.night-mode #right-image{
+    color: white;
+    box-shadow: 0px 0px 15px white;
+}
+
+.night-mode #contact{
+    background-color: white;
+    color: #141414  ;
+}
+
+.night-mode .download-cv{
+    color: white !important;
+}
+
+.night-mode #left-text{
+    transition: 0.4s ease-out;
+
+    color: white;
+}
+.night-mode #nav-right a{
     background-color: white;
     color: #141414;
 }
@@ -38,6 +83,58 @@ body.night-mode{
     
 }
 
+.night-mode .contact-detail label{
+    color: white;
+}
+
+.night-mode .title-contact-form{
+    color: white;
+}
+
+.night-mode #emailHelp{
+    color: white;
+    
+}
+
+.night-mode .data-not-exist{
+    color: white;
+}
+
+.night-mode .navbar-toggler{
+    background-color: white;
+}
+
+.night-mode #project-card{
+    background-color: #141414;
+    border: 3px solid white;
+}
+
+.night-mode .card-title{
+    color: white;
+}
+
+.night-mode .card-duration{
+    color: white;
+}
+
+.night-mode #button-card button{
+    background-color: white;
+    color: black;
+}
+
+.night-mode #project-container{
+    background-color: #141414;
+}
+
+.night-mode .button-group button{
+    background-color: white;
+    color: #141414;
+}
+
+.night-mode .title-testimonial{
+    color: white;
+}
+
 /* MY FORM */
 .night-mode .container{
     background-color: #6f7173; 
@@ -48,6 +145,9 @@ body.night-mode{
     color: white;
 }
 
+.night-mode .card-text{
+    color: white;
+}
 
 .night-mode .right-image p{
     color: white;
