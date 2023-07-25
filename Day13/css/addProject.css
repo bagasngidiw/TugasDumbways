@@ -1,0 +1,131 @@
+#project-container{
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-out;
+    background-color: #b9bdbd;
+} 
+
+#form-container{
+    flex-direction: column;
+}
+
+#form-container label{
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+
+.form-detail{
+    margin-bottom: 12px;
+    flex-direction: column;
+}
+
+input, textarea{
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 3px #dbdbdb;
+}
+.form-date{
+    flex-direction: row !important;
+}
+
+input[type="checkbox"]{
+    border-radius: 50px;
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+#button-card .button-edit:hover{
+    background-color: orangered;
+}
+
+#button-card .button-delete:hover{
+    background-color: orangered;
+}
+
+.button-group{
+    flex-direction: row !important;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.button-group .button-clear:hover{  
+    background-color: orangered;
+
+}
+
+.button-group .button-submit:hover{  
+    background-color: orangered;
+
+}
+
+hr{
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.4s ease-out;
+}
+
+.list-project-wrapper{
+    padding: 70px;
+    background-color: #e3e7eb;
+}
+
+.card-icons i{
+    padding-right: 20px;
+    /* margin-bottom: 40px; */
+    transition: 0.4s ease-out;
+}
+
+
+#project-card{
+    transition: 0.4s ease-out;
+    border: 3px solid black;
+}
+
+#project-card:hover{
+    transition: 0.4s ease-out;
+    scale: 1.03;
+}
+
+.card-body p{
+    font-size: 14px;
+}
+
+.card-image img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: -20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.list-project-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+}
+
+#button-card{
+    gap: 20px;
+}
+
+.card-title{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.form-check-label{
+    margin-left: 10px;
+}
+
+.card-text{
+    min-height: 70px;
+    font-size: medium;
+}
