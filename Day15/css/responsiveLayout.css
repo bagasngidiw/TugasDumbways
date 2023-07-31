@@ -1,0 +1,10 @@
+@media only screen and (max-width : 740px) {
+    .list-project-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #right-image{
+        width: 60vw;
+    }
+
+}

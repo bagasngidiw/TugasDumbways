@@ -144,15 +144,15 @@ func home(c echo.Context) error {
 			JavaScript:  (checkValue(technologiesString, "JavaScript")),
 		}
 
-		isDataFound:= false;
+		isDataFound := false
 		for _, item := range dataProjects {
 			if newProject.Id == item.Id {
 				isDataFound = true
-				break;
+				break
 			}
 		}
-		if (isDataFound == false){
-		dataProjects = append(dataProjects, newProject)
+		if isDataFound == false {
+			dataProjects = append(dataProjects, newProject)
 		}
 
 		// fmt.Println("[id:", id, ", first_name:", firstName, ", last_name:", lastName, ", date_of_birth:", dateOfBirth, "]")
@@ -346,7 +346,7 @@ func addFormProject(c echo.Context) error {
 	// untuk checkbox blm tau caranya
 
 	newProject := project{
-		Id: lastId,
+		Id:          lastId,
 		ProjectName: projectName,
 		StartDate:   start,
 		EndDate:     end,
